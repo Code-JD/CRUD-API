@@ -20,10 +20,16 @@
 # for i in range(0, 100, -2):
 # 	print(i)
 
-backString = 'egaunal lufrewop yrev a si nohyP'
-print(backString[::-1])
+# backString = 'egaunal lufrewop yrev a si nohyP'
+# print(backString[::-1])
 
-r = range(0, 10)
-for i in r[::-1]:
+# r = range(0, 10)
+# for i in r[::-1]:
+# 	print(i)
+
+o = range(0, 100, 4)
+print(o)
+p = o[::5]
+print(p)
+for i in p:
 	print(i)
-	
